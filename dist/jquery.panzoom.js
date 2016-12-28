@@ -1161,7 +1161,7 @@
 			this.transition(true);
 
 			// Indicate that we are currently panning
-			this.panning = true;
+			// this.panning = true; //fix for Chrome 55.x
 
 			// Trigger start event
 			this._trigger('start', event, touches);
